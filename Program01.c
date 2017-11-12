@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+main()
 
 {
 int h,v,a;
@@ -11,10 +11,12 @@ printf("wprowadz haslo",a);
 
 scanf(&a);
 
-if (a>3) printf("dobrze");
+if (a<3) printf("dobrze");
 
-else if (a<3) printf("zle");
+else if (a>3) printf("zle");
+
 
 return 0;
+
 
 }
