@@ -8,9 +8,8 @@ int h,a;
 
 printf("wprowadz haslo",a);
 
-scanf(&a);
 
-scanf(&h);
+scanf(&a,&h);
 
 
 
