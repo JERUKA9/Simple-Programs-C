@@ -3,22 +3,16 @@
 int main()
 
 {
-int h;
+int h,a,c;
 
-float a;
+c=h+a;
 
+printf("wprowadz haslo",c);
 
-printf("wprowadz haslo",a,h);
+scanf(&c);
 
-
-scanf(&a,&h);
-
-
-
-if (h>5,a>3) printf("poprawne"); else if (h<5,a<3)printf("zle");
-
+if (c<3) printf("poprawne"); else if (c>3)printf("zle");
 
 return 0;
-
 
 }
