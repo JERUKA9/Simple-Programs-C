@@ -1,7 +1,7 @@
+/*PROGRAM 01 */
 #include<stdio.h>
 
 int main(void)
-
 {
 int h,v,a;
 
@@ -11,12 +11,11 @@ printf("wprowadz haslo",a);
 
 scanf(&a);
 
-if (a<3) printf("dobrze");
+if (a<4) printf("dobrze");
 
-else if (a>3) printf("zle");
-
+else if (a>4) printf("zle");
 
 return 0;
-
-
 }
+
+/*END*/
