@@ -13,11 +13,10 @@ printf("wprowadz haslo",a);
 
 scanf("haslo",&h);
 
-if (h<5) printf("zle haslo");
-
+if (h<5) printf("haslo poprawne");
 
 else
 
-printf("haslo poprawne");
+printf("zle");
 
 }
