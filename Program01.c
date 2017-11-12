@@ -5,18 +5,18 @@ int main()
 {
 int h,a;
 
-h=5;
-
-a=h;
-
 printf("wprowadz haslo",a);
 
 scanf("haslo",&h);
 
-if (h<5) printf("haslo poprawne");
+
+if (h=5) printf("haslo poprawne");
 
 else
 
-printf("zle");
+if (a<3) printf("zle");
+
+
+return 0;
 
 }
