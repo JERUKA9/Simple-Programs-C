@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 
 int main()
@@ -11,19 +10,17 @@ printf("wprowadz haslo",a);
 
 scanf(&a);
 
-printf("haslo",h);
-
 scanf(&h);
 
 
 
-if (h==5,a==3) printf("haslo poprawne");
+if (h>5,a>3) printf("poprawne");
 
-else if (h<5,a>3);
+else
 
-printf("zle\n");
+(h<5,a<3);
 
-
+printf("zle");
 return 0;
 
 }
