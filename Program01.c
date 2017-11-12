@@ -3,27 +3,21 @@
 int main()
 
 {
- int h,a;
+int h,a;
 
 h=5;
 
 a=h;
 
+printf("wprowadz haslo",a);
 
- printf("wprowadz haslo",a);
+scanf("haslo",&h);
 
- scanf("haslo",&h);
-
- if (h==5)else (h<5) then ;
- {
-
-    printf("zle haslo");
-
-    printf("haslo poprawne");
-
- }
-
- return 0;
+if (h<5) printf("zle haslo");
 
 
+else
 
+printf("haslo poprawne");
+
+}
