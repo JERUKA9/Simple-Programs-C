@@ -3,17 +3,18 @@
 
  main(void)
 {
-int a;
+int haslo;
 
 
-printf("wprowadz haslo",a);
+printf("wprowadz haslo",haslo);
 
-scanf("%d",&a);
+scanf("%d",&haslo);
 
-if (a==2) printf("dobrze");
+if (haslo==2) printf("dobrze");
 
-else if (a==0) printf ("zle");
+else if (haslo==0) printf ("zle");
 
 return 0;
 }
 /*END*/
+
