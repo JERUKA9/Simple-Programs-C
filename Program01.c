@@ -1,19 +1,18 @@
 /*PROGRAM 01 */
 #include<stdio.h>
 
-int main(void)
+ main(void)
 {
-int h,v,a;
+int a;
 
-a=h+v;
 
 printf("wprowadz haslo",a);
 
-scanf(&a);
+scanf("%d",&a);
 
-if (a<4) printf("dobrze");
+if (a==2) printf("dobrze");
 
-else if (a>4) printf("zle");
+else if (a==0) printf ("zle");
 
 return 0;
 }
