@@ -5,11 +5,11 @@ char tab[5]={'h','a','s','l','o'};
 
  int main()
 {
-printf("wprowadz haslo");
+printf("wprowadz haslo\n");
 
-scanf("%5shaslo",&tab[5]);
+scanf("%shaslo",&tab[5]);
 
-if (tab[5]) printf("prawidlowe");
+if (tab[5]) printf("prawidlowe\n");
 
 getch();
 
