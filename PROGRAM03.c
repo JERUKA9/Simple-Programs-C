@@ -1,12 +1,30 @@
 #include<stdio.h>
 
 
-enum data {password=3};
+enum data{haslo=3};
 
- int main()
+
+
+int main()
+
+switch(haslo)
 
 {
-     printf("%s prawidlowe");
+
+case 'A': printf("prawidlowe");
+
+break;
+
+case 'B' : printf("zle");
+
+break;
+
+default : printf("inna akcja");
+
+break;
+
+
+
 
 
 return 0;
@@ -15,12 +33,6 @@ return 0;
 
 
 }
-
-
-
-
-
-
 
 
 
